@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
+import { SearchForm } from "../../components/SearchForm";
+
 import "./styles.css";
 
 @connect(state => ({
@@ -15,10 +17,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Search a tv show</h1>
-        <form className="Form">
-          <input name="query" />
-          <button>Search</button>
-        </form>
+        <SearchForm />
         <h2>results:</h2>
         {isSearchInProgress && "Loading"}
         {showNoResults && <h3>No results :(</h3>}

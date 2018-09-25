@@ -1,11 +1,15 @@
 {
-  "name": "react-redux-saga-code-test",
+  "name": "code-challenge",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "enzyme": "3.6.0",
+    "enzyme-adapter-react-16": "1.5.0",
+    "enzyme-to-json": "3.3.4",
     "history": "4.7.2",
+    "prop-types": "15.6.2",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-redux": "5.0.7",
