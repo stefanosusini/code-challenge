@@ -11,6 +11,6 @@ describe("SearchForm", () => {
   });
 
   it("should ... ", () => {
-    expect(toJSON(<SearchForm />)).not.toEqual("a string");
+    expect(toJSON(<SearchForm />)).toEqual("Not implemented");
   });
 });
